@@ -53,7 +53,7 @@ button{
     height: 2000px;
 }
 .black1{
-    height: 800px;
+    height: 700px;
     background-color: rgb(31, 30, 30);
     margin-top: -50px;
     color: white;
@@ -106,6 +106,66 @@ button.s{
     margin-top: 40px;
     margin-left: 220px;
 }
+.skorost{
+    font-size: 50px;
+    width: 800px;
+}
+.s3{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.sqgrey{
+    width: 400px;
+    height: 140px;
+    border: 1px solid grey;
+    display: flex;
+    justify-content: space-around;
+    border-radius: 10px;
+    align-items: center;
+    margin-top: 20px;
+}
+.onerow{
+    display: flex;
+    gap: 10px;
+}
+.bigsq{
+    width: 400px;
+    height: 300px;
+    border: 1px solid grey;
+    position: relative;
+    text-align: center;
+}
+.ab{
+    position: absolute;
+    top: 130px;
+    left: 100px;
+}
+.big-one{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 20px;
+    margin-top: 30px;
+}
+.picb{
+    width: 810px;
+    height: 230px;
+}
+.picl{
+    width: 400px;
+    height: 230px;
+}
+.sss{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 80px;
+}
+.lastp{
+  display: flex;
+  gap: 10px;  
+}
 @media (max-width:510px) {
     .fourp{
         display: none;
@@ -143,5 +203,46 @@ button.s{
       margin-top: 30px;
       margin-left: 10px;
     }
-    
+    .skorost{
+        width: 250px;
+    }
+   .bbbb{
+    display: none;
+   } 
+   .t{
+    display: none;
+   }
+   .seconds{
+    height: 3900px;
+    border: 0.1px solid red;
+   }
+   .big-one{
+    display: flex;
+    flex-direction: column;
+   }
+   .onerow{
+    display: flex;
+    flex-direction: column;
+   }
+   .sqgrey{
+    width: 300px;
+   }
+   .bigsq{
+    width: 320px;
+    margin-top: 20px;
+   }
+   .rela{
+    width: 300px;
+   }
+   .sss{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+   }
+   .picl{
+    width: 160px;
+   }
+   .picb{
+    width:330px ;
+   }
 }
