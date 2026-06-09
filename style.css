@@ -1,3 +1,6 @@
+body{
+    font-family: sans-serif;
+}
 .border-head{
 display: flex;
 gap: 200px;
@@ -49,6 +52,60 @@ button{
     border-left: 25px solid #FF0000;
     height: 2000px;
 }
+.black1{
+    height: 800px;
+    background-color: rgb(31, 30, 30);
+    margin-top: -50px;
+    color: white;
+}
+.bor{
+    border: 1px solid rgb(177, 172, 172);
+    width: 70%;
+    margin: auto;
+}
+.kak{
+    font-size: 50px;
+    font-weight: 700;
+text-align: center;
+}
+.style{
+    width: 90%;
+    color: white;
+    display: flex;
+    gap: 30px;
+  justify-content: center;
+}
+.re{
+    width: 70%;
+    margin: auto;
+    font-weight: 600;
+    font-size: 20px;
+    margin-top: 30px;
+}
+.square{
+    width: 300px;
+    height: 80px;
+    border: 1px solid white;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 20px;
+}
+.first-row{
+    display: flex;
+   justify-content: space-around;
+    align-items: center;
+    width: 70%;
+    margin: auto;
+    margin-top: 30px;
+}
+button.s{
+    width: 70%;
+    margin: auto;
+    margin-top: 40px;
+    margin-left: 220px;
+}
 @media (max-width:510px) {
     .fourp{
         display: none;
@@ -64,6 +121,27 @@ button{
     }
     .two{
         display: none;
+    }
+   
+    .kak{
+        width: 250px;
+    }
+    .style{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .black1{
+       height: 1500px;
+    }
+    .first-row{
+        display: flex;
+        flex-direction: column;
+    }
+    button.s{
+        width: 90%;
+      margin: auto;
+      margin-top: 30px;
+      margin-left: 10px;
     }
     
 }
